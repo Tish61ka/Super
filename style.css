@@ -1,0 +1,43 @@
+.submit{
+    border: solid 1.5px gray;
+    animation: rgb 7s ease-in-out infinite;
+    transition-duration: 3s;
+}
+@keyframes rgb{
+    from{
+        background-color: red;
+    }
+    12.5%{
+        background-color: orange;
+    }
+    25%{
+        background-color: yellow;
+    }
+    37.5%{
+        background-color: green;
+    }
+    50%{
+        background-color: skyblue;
+    }
+    62.5%{
+        background-color: blue;
+    }
+    75%{
+        background-color: rgb(167, 0, 167);
+    }
+    87.5%{
+        background-color: rgb(116, 0, 68);
+    }
+    to{
+        background-color: rgb(151, 1, 1);
+    }
+}
+.submit:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: scale(1.1);
+    transform: scale(1.1);
+}
+.operation:hover{
+    cursor: pointer;
+}
