@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/asept/css/reg.css">
+    <title>Регистрация</title>
+</head>
+<body>
+<form method="POST" action="/vender/signup.php" enctype="multupart/form-data">
+    <label for="">ФИО</label>
+    <input type="text" name="FullName" placeholder="Введите свое полное имя">
+    <label for="">Логин</label>
+    <input type="text" name="Login" placeholder="Введите логин">
+    <label for="">Почта</label>
+    <input type="email" required name="e-mail" placeholder="Введите свой email" id="">
+    <label for="">Прикрепите изображение профиля</label>
+    <input type="file" name="picture" id="">
+    <label for="">Пароль</label>
+    <input type="password" required name="password" placeholder="Введите пароль" id="">
+    <label for="">Подтверждение пароля</label>
+    <input type="password" required name="SecondPassword" placeholder="Подтвердите пароль" id="">
+    <button>Зарегестрироваться</button>
+    <p>
+        Уже есть аккаунт? <a href="./index.html">Войти</a>
+    </p>
+    <p class="under_form_p">
+        Какое-то сообщение
+    </p>
+</form>
+</body>
+</html>
